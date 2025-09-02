@@ -16,8 +16,8 @@ def main(page: ft.Page):
         Esta função será executada sempre que o btn for clicado o perâmetro 'evento' contém informações sobre o clique.
         """
         #mudando o texto da msg
-        mensagem.value = "vc caiu no bait"
-        mensagem.color = ft.Colors.RED
+        mensagem.value = "você apertou o botão!"
+        mensagem.color = ft.Colors.GREEN
 
         #importante: sempre que uma propriedade de um controle for alterada, é necessário chamar o método page.update() para que as mudanças apareçam na tela
         page.update()
