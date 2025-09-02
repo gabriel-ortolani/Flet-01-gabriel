@@ -12,7 +12,24 @@ Aqui você encontra códigos de estudo e prática, incluindo:
 - Aplicativos de exemplo: calculadora, loja virtual, zoológico virtual, painel de configuração, entre outros
 - Exercícios e desafios para fixação dos conceitos
 
-## Como executar
+## Criação de um arquivo flet do zero
+1. **Crie a pasta .venv**
+   ```bash
+   python -m venv .venv
+   ```
+3. **ative a pasta .venv**
+   ```bash
+   .venv\Scripts\activate
+   ```
+4.  **Instale o flet**
+```bash
+pip install flet-desktop
+```
+4. **Executar o arquivo**
+```bash
+flet run --web Nome_do_arquivo.py
+```
+---
 
 1. **Clone o repositório:**
    ```bash
@@ -48,5 +65,4 @@ Aqui você encontra códigos de estudo e prática, incluindo:
 - `9_galeria_cards.py` — Galeria de animais com filtros
 - `10_app_multipagina.py` — App multipágina com navegação
 - `10a_desafio2.py` — Desafio: Loja virtual mini
-
 
